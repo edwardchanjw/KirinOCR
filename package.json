@@ -1,0 +1,16 @@
+{
+  "name": "kirinocr",
+  "version": "1.0.0",
+  "description": "Hekcing optical character recognizer to read @Kirinodere's japanese weeb trash",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.9",
+    "jimp": "^0.5.0",
+    "textract": "^2.4.0"
+  }
+}
